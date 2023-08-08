@@ -6,8 +6,6 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
-import PdfResumeUrl from '@site/static/resume-petercrabtree-202308.pdf';
-import DocxResumeUrl from '@site/static/resume-petercrabtree-202308.docx';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -19,12 +17,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           {<Link
             className="button button--secondary button--lg"
-            to={PdfResumeUrl}>
+            to={require('@site/static/resume-petercrabtree-202308.pdf').default}>
             Peter's Resume (pdf)
           </Link>}
           {<Link
             className="button button--secondary button--lg"
-            to={DocxResumeUrl}>
+            to={require('@site/static/resume-petercrabtree-202308.docx').default}>
             Peter's Resume (docx)
           </Link>}
         </div>
