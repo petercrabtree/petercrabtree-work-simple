@@ -15,16 +15,17 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          {<Link
+          {<a
             className="button button--secondary button--lg"
-            to={require('@site/static/resume-petercrabtree-202308.pdf').default}>
+            href={require('@site/static/resume-petercrabtree-202308.pdf').default}>
             Peter's Resume (pdf)
-          </Link>}
-          {<Link
+          </a>}
+          {<a
             className="button button--secondary button--lg"
-            to={require('@site/static/resume-petercrabtree-202308.docx').default}>
+            href={require('@site/static/resume-petercrabtree-202308.docx').default}>
+            
             Peter's Resume (docx)
-          </Link>}
+          </a>}
         </div>
       </div>
     </header>
