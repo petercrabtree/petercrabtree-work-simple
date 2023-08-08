@@ -85,8 +85,8 @@ const config = {
                 href: 'https://github.com/petercrabtree',
               },
               {
-                label: 'This site\'s Repo',
-                href: 'https://github.com/petercrabtree/petercrabtree.work',
+                label: 'This site\'s Commit Log',
+                href: 'https://github.com/petercrabtree/petercrabtree-work-simple/commits/main',
               },
             ],
           },
