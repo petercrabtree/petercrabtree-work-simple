@@ -56,10 +56,11 @@ const config = {
       navbar: {
         title: 'Peter\'s Resume Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Peter Crabtree\'s Logo',
           src: 'img/logo.svg',
         },
-        items: [],
+        items: [
+        ],
       },
       footer: {
         style: 'dark',
@@ -70,6 +71,10 @@ const config = {
               {
                 label: 'Email',
                 href: 'mailto:peter.crabtree@gmail.com',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/peterdcrabtree/',
               },
               {
                 label: 'X (Twitter)',
